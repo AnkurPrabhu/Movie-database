@@ -82,7 +82,7 @@ useEffect(()=>{
         <Route path="/Trailer" component={Trailer}/>
         <Route path="/Tabtwo" component={Tabtwo}/>
         <Route path="/Movie-database" component={Home}/>
-        <Route path="*" component={Error404} />
+        {/* <Route path="*" component={Error404} /> */}
 
       </Switch>
     </div>
